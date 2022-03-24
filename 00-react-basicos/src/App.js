@@ -5,7 +5,10 @@ import Propiedades from "./components/Propiedades";
 import Estado from "./components/Estado";
 import RenderizadoCondicional from "./components/RenderizadoCondicional";
 import RenderizadoElementos from "./components/RenderizadoElementos";
-import Eventos from "./components/Eventos";
+import { EventosES6, EventosES7, MasSobreEventos } from "./components/Eventos";
+import ComunicacionComponentes from "./components/ComunicacionComponentes";
+import CicloVida from "./components/CicloVida";
+import AjaxApis from "./components/AjaxApis";
 
 
 function App() {
@@ -42,13 +45,23 @@ function App() {
               }
             />
             <hr />
-            <Estado/>
+            <Estado />
             <hr />
-            <RenderizadoCondicional/>
+            <RenderizadoCondicional />
             <hr />
             <RenderizadoElementos />
             <hr />
-            <Eventos />
+            <EventosES6 />
+            <hr />
+            <EventosES7 />
+            <hr />
+            <MasSobreEventos />
+            <hr />
+            <ComunicacionComponentes />
+            <hr />
+            <CicloVida />
+            <hr />
+            <AjaxApis />
           </section>
         </section>
       </header>
